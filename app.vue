@@ -1,5 +1,9 @@
+<script setup lang="ts">
+import "~/assets/style/Globle.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+</script>
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <body>
+    <NuxtLayout name="default"><NuxtPage /> </NuxtLayout>
+  </body>
 </template>
