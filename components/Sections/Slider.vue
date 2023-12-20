@@ -6,7 +6,7 @@ import "~/assets/style/Slider.css";
   <section class="slider_section">
     <div class="play_btn">
       <a href="">
-        <NuxtImg src="/play.png" alt="play" />
+        <img src="~public/images/play.png" alt="play" />
       </a>
     </div>
     <div class="number_box">
@@ -62,7 +62,7 @@ import "~/assets/style/Slider.css";
               </div>
               <div class="col-md-6 img-container">
                 <div class="img-box">
-                  <NuxtImg src="/slider-img.png" alt="slider-img" />
+                  <img src="~public/images/slider-img.png" alt="slider-img" />
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ import "~/assets/style/Slider.css";
               </div>
               <div class="col-md-6 img-container">
                 <div class="img-box">
-                  <NuxtImg src="/slider-img.png" alt="slider-img" />
+                  <img src="~public/images/slider-img.png" alt="slider-img" />
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ import "~/assets/style/Slider.css";
               </div>
               <div class="col-md-6 img-container">
                 <div class="img-box">
-                  <NuxtImg src="/slider-img.png" alt="slider-img" />
+                  <img src="~public/images/slider-img.png" alt="slider-img" />
                 </div>
               </div>
             </div>
@@ -137,7 +137,7 @@ import "~/assets/style/Slider.css";
               </div>
               <div class="col-md-6 img-container">
                 <div class="img-box">
-                  <NuxtImg src="/slider-img.png" alt="slider-img" />
+                  <img src="~public/images/slider-img.png" alt="slider-img" />
                 </div>
               </div>
             </div>

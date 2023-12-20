@@ -17,7 +17,7 @@ import "~/assets/style/Discount.css";
         </div>
         <div class="col-md-6">
           <div class="img-box">
-            <NuxtImg src="discount-img.png" alt="discount-img" />
+            <img src="~public/images/discount-img.png" alt="discount-img" />
           </div>
         </div>
       </div>

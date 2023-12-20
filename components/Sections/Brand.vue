@@ -14,7 +14,7 @@ import "~/assets/style/Brand.css";
               <h5>New</h5>
             </div>
             <div class="img-box">
-              <NuxtImg src="/slider-img.png" alt="slider-img" />
+              <img src="~public/images/slider-img.png" alt="slider-img" />
             </div>
             <div class="detail-box">
               <h6 class="price">$100</h6>
@@ -25,7 +25,7 @@ import "~/assets/style/Brand.css";
         <div class="box">
           <a href="">
             <div class="img-box">
-              <NuxtImg src="/slider-img.png" alt="slider-img" />
+              <img src="~public/images/slider-img.png" alt="slider-img" />
             </div>
             <div class="detail-box">
               <h6 class="price">$100</h6>
@@ -36,7 +36,7 @@ import "~/assets/style/Brand.css";
         <div class="box">
           <a href="">
             <div class="img-box">
-              <NuxtImg src="/slider-img.png" alt="slider-img" />
+              <img src="~public/images/slider-img.png" alt="slider-img" />
             </div>
             <div class="detail-box">
               <h6 class="price">$100</h6>
@@ -47,7 +47,7 @@ import "~/assets/style/Brand.css";
         <div class="box">
           <a href="">
             <div class="img-box">
-              <NuxtImg src="/slider-img.png" alt="slider-img" />
+              <img src="~public/images/slider-img.png" alt="slider-img" />
             </div>
             <div class="detail-box">
               <h6 class="price">$100</h6>

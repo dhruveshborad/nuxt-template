@@ -24,7 +24,7 @@ import "~/assets/style/About.css";
         </div>
         <div class="col-md-6">
           <div class="img-box">
-            <NuxtImg src="/about-img.png" alt="about-img"/>
+            <img src="~public/images/about-img.png" alt="about-img"/>
           </div>
         </div>
       </div>

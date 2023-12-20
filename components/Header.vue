@@ -9,7 +9,7 @@ import "~/assets/style/Header.css";
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="/">
-            <img src="~/assets/images/logo.png" alt="logo" />
+            <img src="~public/images/Logo.png" alt="logo" />
           </a>
           <button
             class="navbar-toggler"
@@ -45,7 +45,7 @@ import "~/assets/style/Header.css";
             </ul>
             <div class="user_option">
               <a href="">
-                <NuxtImg src="/user.png" alt="user" />
+                <img src="~public/images/user.png" alt="user" />
                 <span> Login </span>
               </a>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">

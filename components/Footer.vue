@@ -13,19 +13,31 @@ import "~/assets/style/Footer.css";
             <h5>About Shop</h5>
             <div>
               <div class="img-box">
-                <NuxtImg src="/location-white.png" width="18px" alt="" />
+                <img
+                  src="~public/images/location-white.png"
+                  width="18px"
+                  alt=""
+                />
               </div>
               <p>Address</p>
             </div>
             <div>
               <div class="img-box">
-                <NuxtImg src="/telephone-white.png" width="12px" alt="" />
+                <img
+                  src="~public/images/telephone-white.png"
+                  width="12px"
+                  alt=""
+                />
               </div>
               <p>+91 7698342723</p>
             </div>
             <div>
               <div class="img-box">
-                <NuxtImg src="/envelope-white.png" width="18px" alt="" />
+                <img
+                  src="~public/images/envelope-white.png"
+                  width="18px"
+                  alt=""
+                />
               </div>
               <p>dhruveshborad007@gmail.com</p>
             </div>
@@ -48,12 +60,12 @@ import "~/assets/style/Footer.css";
               <div>
                 <a href="">
                   <div class="insta-box b-1">
-                    <NuxtImg src="/i-1.jpg" alt="" />
+                    <img src="~public/images/i-1.jpg" alt="" />
                   </div>
                 </a>
                 <a href="">
                   <div class="insta-box b-2">
-                    <NuxtImg src="/i-2.jpg" alt="" />
+                    <img src="~public/images/i-2.jpg" alt="" />
                   </div>
                 </a>
               </div>
@@ -61,24 +73,24 @@ import "~/assets/style/Footer.css";
               <div>
                 <a href="">
                   <div class="insta-box b-3">
-                    <NuxtImg src="/i-3.jpg" alt="" />
+                    <img src="~public/images/i-3.jpg" alt="" />
                   </div>
                 </a>
                 <a href="">
                   <div class="insta-box b-4">
-                    <NuxtImg src="/i-4.jpg" alt="" />
+                    <img src="~public/images/i-4.jpg" alt="" />
                   </div>
                 </a>
               </div>
               <div>
                 <a href="">
                   <div class="insta-box b-3">
-                    <NuxtImg src="/i-5.jpg" alt="" />
+                    <img src="~public/images/i-5.jpg" alt="" />
                   </div>
                 </a>
                 <a href="">
                   <div class="insta-box b-4">
-                    <NuxtImg src="/i-6.jpg" alt="" />
+                    <img src="~public/images/i-6.jpg" alt="" />
                   </div>
                 </a>
               </div>
@@ -94,16 +106,16 @@ import "~/assets/style/Footer.css";
             </form>
             <div class="social_box">
               <a href="">
-                <NuxtImg src="/fb.png" alt="" />
+                <img src="~public/images/fb.png" alt="" />
               </a>
               <a href="">
-                <NuxtImg src="/twitter.png" alt="" />
+                <img src="~public/images/twitter.png" alt="" />
               </a>
               <a href="">
-                <NuxtImg src="/linkedin.png" alt="" />
+                <img src="~public/images/linkedin.png" alt="" />
               </a>
               <a href="">
-                <NuxtImg src="/youtube.png" alt="" />
+                <img src="~public/images/youtube.png" alt="" />
               </a>
             </div>
           </div>

@@ -58,13 +58,13 @@
 }
 
 .client_section .client_box:hover .arrow_img {
-    background-image: url(../images/arrow-green.png);
+    background-image: url(../../public/images/arrow-green.png);
 }
 
 .client_section .client_box .arrow_img {
     width: 50px;
     height: 30px;
-    background-image: url(../images/arrow.png);
+    background-image: url(../../public/images/arrow.png);
     background-size: 25px;
     background-repeat: no-repeat;
 }

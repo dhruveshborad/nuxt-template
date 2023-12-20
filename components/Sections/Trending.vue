@@ -85,18 +85,18 @@ import "~/assets/style/Trending.css";
               <div class="img_container">
                 <div class="box b-1">
                   <div class="img-box">
-                    <NuxtImg src="/t-1.jpg" alt="" />
+                    <img src="~public/images/t-1.jpg" alt="" />
                   </div>
                   <div class="img-box">
-                    <NuxtImg src="/t-2.jpg" alt="" />
+                    <img src="~public/images/t-2.jpg" alt="" />
                   </div>
                 </div>
                 <div class="box b-2">
                   <div class="img-box">
-                    <NuxtImg src="/t-3.jpg" alt="" />
+                    <img src="~public/images/t-3.jpg" alt="" />
                   </div>
                   <div class="img-box">
-                    <NuxtImg src="/t-4.jpg" alt="" />
+                    <img src="~public/images/t-4.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -110,18 +110,18 @@ import "~/assets/style/Trending.css";
               <div class="img_container">
                 <div class="box b-1">
                   <div class="img-box">
-                    <NuxtImg src="/t-3.jpg" alt="" />
+                    <img src="~public/images/t-3.jpg" alt="" />
                   </div>
                   <div class="img-box">
-                    <NuxtImg src="/t-4.jpg" alt="" />
+                    <img src="~public/images/t-4.jpg" alt="" />
                   </div>
                 </div>
                 <div class="box b-2">
                   <div class="img-box">
-                    <NuxtImg src="/t-1.jpg" alt="" />
+                    <img src="~public/images/t-1.jpg" alt="" />
                   </div>
                   <div class="img-box">
-                    <NuxtImg src="/t-2.jpg" alt="" />
+                    <img src="~public/images/t-2.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -135,18 +135,18 @@ import "~/assets/style/Trending.css";
               <div class="img_container">
                 <div class="box b-1">
                   <div class="img-box">
-                    <NuxtImg src="/t-4.jpg" alt="" />
+                    <img src="~public/images/t-4.jpg" alt="" />
                   </div>
                   <div class="img-box">
-                    <NuxtImg src="/t-1.jpg" alt="" />
+                    <img src="~public/images/t-1.jpg" alt="" />
                   </div>
                 </div>
                 <div class="box b-2">
                   <div class="img-box">
-                    <NuxtImg src="/t-3.jpg" alt="" />
+                    <img src="~public/images/t-3.jpg" alt="" />
                   </div>
                   <div class="img-box">
-                    <NuxtImg src="/t-2.jpg" alt="" />
+                    <img src="~public/images/t-2.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -160,19 +160,19 @@ import "~/assets/style/Trending.css";
               <div class="img_container">
                 <div class="box b-1">
                   <div class="img-box">
-                    <NuxtImg src="/t-1.jpg" alt="" />
+                    <img src="~public/images/t-1.jpg" alt="" />
                   </div>
 
                   <div class="img-box">
-                    <NuxtImg src="/t-4.jpg" alt="" />
+                    <img src="~public/images/t-4.jpg" alt="" />
                   </div>
                 </div>
                 <div class="box b-2">
                   <div class="img-box">
-                    <NuxtImg src="/t-3.jpg" alt="" />
+                    <img src="~public/images/t-3.jpg" alt="" />
                   </div>
                   <div class="img-box">
-                    <NuxtImg src="/t-2.jpg" alt="" />
+                    <img src="~public/images/t-2.jpg" alt="" />
                   </div>
                 </div>
               </div>

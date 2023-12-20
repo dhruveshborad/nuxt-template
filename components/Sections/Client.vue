@@ -14,7 +14,7 @@ import "~/assets/style/Client.css";
         <div class="client_box b-1">
           <div class="client-id">
             <div class="img-box">
-              <NuxtImg src="/client-1.png" alt="client-1" />
+              <img src="~public/images/client-1.png" alt="client-1" />
             </div>
             <div class="name">
               <h5>Magna</h5>
@@ -35,7 +35,7 @@ import "~/assets/style/Client.css";
         <div class="client_box b-2">
           <div class="client-id">
             <div class="img-box">
-              <NuxtImg src="client-2.png" alt="client-2" />
+              <img src="~public/images/client-2.png" alt="client-2" />
             </div>
             <div class="name">
               <h5>Aliqua</h5>
