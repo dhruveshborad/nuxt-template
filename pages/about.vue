@@ -1,13 +1,8 @@
 <script setup lang="ts">
 definePageMeta({
-  layout: "default",
+  layout: "custom",
 });
 </script>
 <template>
   <About />
-  <Trending />
-  <Discount />
-  <Brand />
-  <Contact />
-  <Client />
 </template>

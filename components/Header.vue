@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import "~/assets/style/Header.css";
-
+const props = defineProps({
+  custom: Boolean,
+});
+const {custom} = props;
 </script>
 <template>
   <div class="hero_area">
@@ -31,20 +34,20 @@ import "~/assets/style/Header.css";
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
+                <a class="nav-link" href="/about"> About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="shop.html">Shop </a>
+                <a class="nav-link" href="/shop">Shop </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="furniture.html"> Furniture </a>
+                <a class="nav-link" href="/furniture"> Furniture </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact us</a>
+                <a class="nav-link" href="/contact">Contact us</a>
               </li>
             </ul>
             <div class="user_option">
-              <a href="">
+              <a href="/logIn">
                 <img src="~public/images/user.png" alt="user" />
                 <span> Login </span>
               </a>
@@ -69,6 +72,6 @@ import "~/assets/style/Header.css";
       </div>
     </header>
     <!-- slider section -->
-    <Slider />
+    <Slider v-if="!custom"/>
   </div>
 </template>
