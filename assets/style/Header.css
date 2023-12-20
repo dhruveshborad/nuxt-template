@@ -162,3 +162,49 @@ a:focus {
     color: #24d278;
     text-transform: uppercase;
 }
+
+
+#navbarSupportedContent.lg_nav-toggle {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.custom_menu-btn button {
+    margin-top: 12px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.custom_menu-btn button span {
+    display: block;
+    width: 34px;
+    height: 3.5px;
+    background-color: #fff;
+    margin: 8.5px 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.custom_menu-btn .s-2 {
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+    width: 17px;
+    margin-left: auto;
+}
+
+.menu_btn-style button .s-1 {
+    -webkit-transform: rotate(45deg) translate(7px, 10px);
+    transform: rotate(45deg) translate(7px, 10px);
+}
+
+.menu_btn-style button .s-2 {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+}
+
+.menu_btn-style button .s-3 {
+    -webkit-transform: rotate(-45deg) translate(7px, -10px);
+    transform: rotate(-45deg) translate(7px, -10px);
+}

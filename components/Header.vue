@@ -3,7 +3,17 @@ import "~/assets/style/Header.css";
 const props = defineProps({
   custom: Boolean,
 });
-const {custom} = props;
+const { custom } = props;
+const route = useRoute();
+let className = "custom_menu-btn";
+function showNav() {
+  console.log("first", className);
+  if (className === "custom_menu-btn") {
+    className = "custom_menu-btn menu_btn-style";
+  } else {
+    className = "custom_menu-btn";
+  }
+}
 </script>
 <template>
   <div class="hero_area">
@@ -26,23 +36,39 @@ const {custom} = props;
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse lg_nav-toggle"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html"
-                  >Home <span class="sr-only">(current)</span></a
-                >
+              <li
+                class="nav-item"
+                :class="route.fullPath === '/' ? 'active' : ''"
+              >
+                <a class="nav-link" href="/">Home </a>
               </li>
-              <li class="nav-item">
+              <li
+                class="nav-item"
+                :class="route.fullPath === '/about' ? 'active' : ''"
+              >
                 <a class="nav-link" href="/about"> About</a>
               </li>
-              <li class="nav-item">
+              <li
+                class="nav-item"
+                :class="route.fullPath === '/shop' ? 'active' : ''"
+              >
                 <a class="nav-link" href="/shop">Shop </a>
               </li>
-              <li class="nav-item">
+              <li
+                class="nav-item"
+                :class="route.fullPath === '/furniture' ? 'active' : ''"
+              >
                 <a class="nav-link" href="/furniture"> Furniture </a>
               </li>
-              <li class="nav-item">
+              <li
+                class="nav-item"
+                :class="route.fullPath === '/contact' ? 'active' : ''"
+              >
                 <a class="nav-link" href="/contact">Contact us</a>
               </li>
             </ul>
@@ -60,7 +86,7 @@ const {custom} = props;
             </div>
           </div>
           <div>
-            <div class="custom_menu-btn">
+            <div @click="showNav" :class="className">
               <button>
                 <span class="s-1"> </span>
                 <span class="s-2"> </span>
@@ -72,6 +98,6 @@ const {custom} = props;
       </div>
     </header>
     <!-- slider section -->
-    <Slider v-if="!custom"/>
+    <Slider v-if="!custom" />
   </div>
 </template>
