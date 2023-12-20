@@ -9,7 +9,7 @@ import "~/assets/style/Header.css";
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="/">
-            <NuxtImg src="/logo.png" alt="logo" />
+            <img src="~/assets/images/logo.png" alt="logo" />
           </a>
           <button
             class="navbar-toggler"
