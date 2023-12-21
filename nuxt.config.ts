@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     },
   ],
   css: ["bootstrap/dist/css/bootstrap.css"],
-  modules: ["@nuxt/image"],
+  modules: ["@nuxt/image",'nuxt-swiper'],
   image: {
     dir: 'assets/images',
   }
